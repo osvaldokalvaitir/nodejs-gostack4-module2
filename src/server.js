@@ -1,6 +1,8 @@
 const express = require('express')
 const session = require('express-session')
-const FileStore = require('session-file-store')(session)
+// A biblioteca 'session-file-store' no Windows contém erros que não foram corrigidos, então, foi substituída pela 'connect-loki'
+// const FileStore = require('session-file-store')(session)
+const LokiStore = require('connect-loki')(session)
 const nunjucks = require('nunjucks')
 const path = require('path')
 const flash = require('connect-flash')
@@ -23,8 +25,12 @@ class App {
         name: 'root',
         secret: 'MyAppSecret',
         resave: true,
-        store: new FileStore({
-          path: path.resolve(__dirname, '..', 'tmp', 'sessions')
+        // A biblioteca 'session-file-store' no Windows contém erros que não foram corrigidos, então, foi substituída pela 'connect-loki'
+        // store: new FileStore({
+        //   path: path.resolve(__dirname, '..', 'tmp', 'sessions')
+        // }),
+        store: new LokiStore({
+          path: path.resolve(__dirname, '..', 'tmp', 'sessions', 'session-store.db')
         }),
         saveUninitialized: true
       })

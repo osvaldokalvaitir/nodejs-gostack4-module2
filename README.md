@@ -51,7 +51,7 @@ Esta tela é responsável pelo registro do usuário onde serão obrigatórios os
 ### Início
 
 ![Screenshoot Dashboard](https://github.com/osvaldokalvaitir/node-modulo2/blob/master/screenshots/Dashboard.png)
-Esta é a tela principal do site, onde você vai encontrar todos os profissionais e iniciar um agendamento com o profissional dê sua preferência.
+Esta é a tela principal do site, onde você vai encontrar uma lista com todos os profissionais e poderá iniciar um agendamento com o profissional dê sua preferência e tem a opção também de sair da sua conta.
 
 ### Compromissos
 

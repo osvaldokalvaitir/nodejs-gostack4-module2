@@ -17,10 +17,6 @@
       <div id="hours">
         <label>
           <input type="radio" />
-          12:00
-        </label>
-        <label>
-          <input type="radio" />
           13:00
         </label>
         <label>
@@ -36,7 +32,10 @@
   <script type="text/javascript">
     flatpickr('.flatpickr', {
       minDate: new Date(),
-      dateFormat: 'd/m/Y'
+      dateFormat: 'd/m/Y',
+      onChange: function(date) {
+        fetch(`/app/available/{{ provider.id }}?date=${date[0].getTime()}`)
+      }
     })
   </script>
-{% endblock  %}
+{% endblock %}

@@ -1,6 +1,6 @@
 # Node - Módulo 2
 
-App GoBarber usando Node.js, Express, Nunjucks e Sequelize.
+Aplicação GoBarber usando Node.js, Express, Nunjucks e Sequelize.
 
 ## Índice
 

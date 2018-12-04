@@ -2,6 +2,15 @@
 
 Aplicação GoBarber usando Node.js, Express, Nunjucks e Sequelize.
 
+## Resumo
+
+Esta aplicação foi desenvolvida para realizar os seguintes procedimentos:
+
+- Adiciona novos usuários
+- Lista todos os prestadores de serviços
+- Lista todos os horários disponíveis referentes ao prestador selecionado
+- Agenda um novo serviço
+
 ## Índice
 
 - [Telas](#telas)

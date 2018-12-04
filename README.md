@@ -10,7 +10,7 @@ App GoBarber usando Node.js, Express, Nunjucks e Sequelize.
 
   - [Registro](#registro)
 
-  - [Início](#inicio)
+  - [Início](#início)
 
   - [Compromissos](#compromissos)
 

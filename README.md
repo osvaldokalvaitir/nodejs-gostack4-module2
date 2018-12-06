@@ -46,17 +46,17 @@ Se o usário não tem ainda um cadastro no site, precisa clicar em 'Criar conta 
 ### Registro
 
 ![Screenshoot SignUp](https://github.com/osvaldokalvaitir/node-modulo2/blob/master/screenshots/SignUp.png)
-Esta tela é responsável pelo registro do usuário onde serão obrigatórios os preenchimentos dos campos como nome, e-mail e senha, escolher uma foto para o avatar e informar se ele é um cabelereiro.
+Esta tela é responsável pelo registro do usuário onde serão obrigatórios os preenchimentos dos campos como nome, e-mail e senha, escolher uma foto para o avatar e informar se ele é um prestador de serviços.
 
 ### Início
 
 ![Screenshoot Dashboard](https://github.com/osvaldokalvaitir/node-modulo2/blob/master/screenshots/Dashboard.png)
-Esta é a tela principal do site, onde você vai encontrar uma lista com todos os profissionais e poderá iniciar um agendamento com o profissional dê sua preferência e tem a opção também de sair da sua conta.
+Esta é a tela principal do site, onde você vai encontrar uma lista com todos os prestadores de serviços e poderá iniciar um agendamento com o prestador dê sua preferência e tem a opção também de sair da sua conta.
 
 ### Compromissos
 
 ![Screenshoot Appointments](https://github.com/osvaldokalvaitir/node-modulo2/blob/master/screenshots/Appointments.png)
-Nesta tela, você poderá agendar um horário que esteja disponível do profissional selecionado.
+Nesta tela, você poderá agendar um horário que esteja disponível do prestador de serviço selecionado.
 
 ## Desenvolvimento
 

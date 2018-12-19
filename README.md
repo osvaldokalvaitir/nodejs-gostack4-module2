@@ -2,15 +2,6 @@
 
 Aplicação GoBarber usando Node.js, Express, Nunjucks e Sequelize.
 
-## Resumo
-
-Esta aplicação foi desenvolvida para realizar os seguintes procedimentos:
-
-- Adiciona novos usuários
-- Lista todos os prestadores de serviços
-- Lista todos os horários disponíveis referentes ao prestador selecionado
-- Agenda um novo serviço
-
 ## Índice
 
 - [Telas](#telas)
@@ -22,6 +13,8 @@ Esta aplicação foi desenvolvida para realizar os seguintes procedimentos:
   - [Início](#início)
 
   - [Compromissos](#compromissos)
+  
+- [Rotas](#rotas)  
 
 - [Desenvolvimento](#desenvolvimento)
 
@@ -57,6 +50,13 @@ Esta é a tela principal do site, onde você vai encontrar uma lista com todos o
 
 ![Screenshoot Appointments](https://github.com/osvaldokalvaitir/node-modulo2/blob/master/screenshots/Appointments.png)
 Nesta tela, você poderá agendar um horário que esteja disponível do prestador de serviço selecionado.
+
+## Rotas
+
+- Adiciona novos usuários
+- Lista todos os prestadores de serviços
+- Lista todos os horários disponíveis referentes ao prestador selecionado
+- Agenda um novo serviço
 
 ## Desenvolvimento
 

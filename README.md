@@ -23,8 +23,8 @@ Aplicação GoBarber usando Node.js, Express, Nunjucks e Sequelize.
   - [Início](#início)
 
   - [Compromissos](#compromissos)
-  
-- [Rotas](#rotas)  
+
+- [Rotas](#rotas)
 
 - [Desenvolvimento](#desenvolvimento)
 
@@ -63,10 +63,31 @@ Nesta tela, você poderá agendar um horário que esteja disponível do prestado
 
 ## Rotas
 
-- Adiciona novos usuários
-- Lista todos os prestadores de serviços
-- Lista todos os horários disponíveis referentes ao prestador selecionado
-- Agenda um novo serviço
+- Prestadores de serviços
+
+  - Lista todos os prestadores de serviços
+
+- Compromissos
+
+  - Lista todos os compromissos de um prestador
+  - Adiciona novos compromissos
+
+- Disponíveis
+
+  - Lista todos os compromissos de um prestador e de uma data
+
+- Usuários
+
+  - Adiciona novos usuários
+
+- Sessões
+
+  - Adiciona novas sessões
+  - Exclui sessões existentes
+
+- Arquivos
+
+  - Lista um arquivo
 
 ## Desenvolvimento
 

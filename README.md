@@ -14,7 +14,7 @@ Aplicação GoBarber usando Node.js, Express, Nunjucks e Sequelize.
 
 ## Índice
 
-- [Telas](#telas)
+- [Capturas de Tela](#capturas-de-tela)
 
   - [Login](#login)
 
@@ -24,8 +24,6 @@ Aplicação GoBarber usando Node.js, Express, Nunjucks e Sequelize.
 
   - [Compromissos](#compromissos)
 
-- [Rotas](#rotas)
-
 - [Desenvolvimento](#desenvolvimento)
 
   - [Configurações Iniciais](#configurações-iniciais)
@@ -34,11 +32,15 @@ Aplicação GoBarber usando Node.js, Express, Nunjucks e Sequelize.
 
   - [Execução do Projeto](#execução-do-projeto)
 
+- [Utilizados no Projeto](#utilizados-no-projeto)
+
   - [Bibliotecas](#bibliotecas)
+  
+  - [APIs](#apis)  
 
-  - [Outras Ferramentas](#outras-ferramentas)
+  - [Ferramentas](#ferramentas)
 
-## Telas
+## Capturas de Tela
 
 ### Login
 
@@ -61,34 +63,6 @@ Esta é a tela principal do site, onde você vai encontrar uma lista com todos o
 ![Appointments](/assets/appointments.png)
 Nesta tela, você poderá agendar um horário que esteja disponível do prestador de serviço selecionado.
 
-## Rotas
-
-- Prestadores de serviços
-
-  - Lista todos os prestadores de serviços
-
-- Compromissos
-
-  - Lista todos os compromissos de um prestador
-  - Adiciona novos compromissos
-
-- Disponíveis
-
-  - Lista todos os compromissos de um prestador e de uma data
-
-- Usuários
-
-  - Adiciona novos usuários
-
-- Sessões
-
-  - Adiciona novas sessões
-  - Exclui sessões existentes
-
-- Arquivos
-
-  - Lista um arquivo
-
 ## Desenvolvimento
 
 ### Configurações Iniciais
@@ -102,6 +76,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 ### Execução do Projeto
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga a Execução de Projeto.
+
+## Utilizados no Projeto
 
 ### Bibliotecas
 
@@ -135,7 +111,39 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [Session File Store](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/session-file-store.md)
 
-### Outras Ferramentas
+### APIs
+
+- **Interna**
+
+  - **Rotas**
+
+    - Prestadores de serviços
+
+      - Lista todos os prestadores de serviços
+
+    - Compromissos
+
+      - Lista todos os compromissos de um prestador
+      - Adiciona novos compromissos
+
+    - Disponíveis
+
+      - Lista todos os compromissos de um prestador e de uma data
+
+    - Usuários
+
+      - Adiciona novos usuários
+
+    - Sessões
+
+      - Adiciona novas sessões
+      - Exclui sessões existentes
+
+    - Arquivos
+
+      - Lista um arquivo
+
+### Ferramentas
 
 - [DBeaver](https://github.com/osvaldokalvaitir/projects-settings/blob/master/database/dbeaver.md)
 

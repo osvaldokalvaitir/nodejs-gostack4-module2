@@ -6,7 +6,8 @@
   "author": "osvaldokalvaitir <osvaldokalvaitir@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon src/index.js -e js"
+    "dev": "nodemon src/index.js -e js",
+    "start": "node src/index.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
